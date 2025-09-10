@@ -1,0 +1,102 @@
+.catalog {
+  margin: 20px 0px;
+  padding: 30px;
+  border: 2px solid black;
+  background-color: rgb(42, 42, 42);
+  border-radius: 5px;
+}
+
+.mainInformation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.left,
+.right {
+  box-sizing: border-box;
+  flex: 0 0 48%;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 20px;
+  height: 200px;
+}
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  label {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: rgb(210, 158, 16);
+    font-weight: 500;
+  }
+  input,
+  textarea {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(143, 143, 143);
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  textarea {
+    height: 125px;
+    resize: none;
+  }
+}
+
+.publicists {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.line {
+  height: 4px;
+  border-radius: 5px;
+  background-color: rgb(210, 158, 16);
+}
+
+.buttonWrapper {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  .button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(210, 158, 16);
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+}
+
+.openSite {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.leftSite,
+.rightSite {
+  box-sizing: border-box;
+  flex: 0 0 49%;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 20px;
+  height: 600px;
+}
