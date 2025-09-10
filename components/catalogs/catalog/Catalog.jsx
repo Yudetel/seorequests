@@ -63,7 +63,7 @@ const Catalog = ({ data }) => {
             title="Embedded Content"
             frameBorder="0"
             allowFullScreen // Optional: allows full-screen display
-            sandbox="allow-scripts allow-same-origin" // Optional: enhances security
+            sandbox="allow-same-origin allow-scripts allow-forms" // Optional: enhances security
           ></iframe>
         </div>
         <div className={styles.rightSite}></div>
